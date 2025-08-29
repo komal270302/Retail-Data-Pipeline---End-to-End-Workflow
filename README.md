@@ -44,7 +44,7 @@ To run this pipeline locally or in a production environment:
 - AWS account with S3 bucket (projectdata12) and credentials (connection ID: s3_conn).
 - Gmail account for SMTP (update placeholders in Retail_Data_Pipeline.py).
 
-2. Clone the Repository: git clone https://github.com/komal202220/retail-data-pipeline.git
+2. Clone the Repository: git clone https://github.com/komal270302/Retail-Data-Pipeline---End-to-End-Workflow.git
                          cd Retail-Data-Pipeline---End-to-End-Workflow
 
 3. Install Dependencies: pip install apache-airflow pandas numpy pymysql boto3 matplotlib
