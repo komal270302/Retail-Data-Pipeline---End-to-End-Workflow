@@ -55,9 +55,10 @@ To run this pipeline locally or in a production environment:
 - Add connections via Airflow UI: MySQL details and AWS keys.
 - Place files in Airflow's dags/ folder and update paths (e.g., /dags/retail_Project/).
 
-5. Run the Pipeline: Trigger the DAG Retail_Data_Pipeline in Airflow UI. Monitor tasks: Data cleaning → Table creation → Loading → Analysis → S3 Upload → Email.
+5. Run the Pipeline: - Trigger the DAG Retail_Data_Pipeline in Airflow UI.
+                     - Monitor tasks: Data cleaning → Table creation → Loading → Analysis → S3 Upload → Email.
 
-6. Sample Results
+7. Sample Results
 - Cleaned Data Example: From raw input like "New York(" and "$31", outputs standardized "New York" and 31.0.
 - Profit Insights: For sample data on 2019-11-26, total profit ~$150 across stores, visualized in bar charts.
 - Outputs: CSVs (e.g., location-wise-analysis_29_08_2025.csv), PNG charts, and S3 uploads.
